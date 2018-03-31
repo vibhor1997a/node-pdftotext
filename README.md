@@ -15,8 +15,10 @@ npm install pdftotext --save
 
 ## Usage
 
+### Example
 ```js
 const pdftotext = require('pdftotext');
+let options = { pdfPath: "E:\\pdfs\\example.pdf", layout: true, first: 3 };
 pdftotext(options, err => {
     if (err) {
         console.log(err);
