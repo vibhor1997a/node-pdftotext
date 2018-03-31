@@ -1,15 +1,12 @@
 {
   "name": "node-pdftotext",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A npm module wrapping the `pdftotext` utitility software",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/vibhor1997a/node-pdftotext.git"
-  },
+  "repository": "git+https://github.com/vibhor1997a/node-pdftotext.git",
   "keywords": [
     "pdf",
     "pdf-to-text",
@@ -21,5 +18,6 @@
   "bugs": {
     "url": "https://github.com/vibhor1997a/node-pdftotext/issues"
   },
-  "homepage": "https://github.com/vibhor1997a/node-pdftotext#readme"
+  "homepage": "https://github.com/vibhor1997a/node-pdftotext#readme",
+  "private": false
 }
