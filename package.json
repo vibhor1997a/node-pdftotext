@@ -1,6 +1,6 @@
 {
-  "name": "pdftotext",
-  "version": "1.0.0",
+  "name": "node-pdftotext",
+  "version": "1.0.1",
   "description": "A npm module wrapping the `pdftotext` utitility software",
   "main": "index.js",
   "scripts": {

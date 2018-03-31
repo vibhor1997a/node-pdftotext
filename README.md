@@ -10,14 +10,14 @@ This Package needs `pdftotext` installed in the host machine and added to the en
 ## INSTALLATION
 
 ```sh
-npm install pdftotext --save
+npm install node-pdftotext --save
 ```
 
 ## Usage
 
 ### Example
 ```js
-const pdftotext = require('pdftotext');
+const pdftotext = require('node-pdftotext');
 let options = { pdfPath: "E:\\pdfs\\example.pdf", layout: true, first: 3 };
 pdftotext(options, err => {
     if (err) {
