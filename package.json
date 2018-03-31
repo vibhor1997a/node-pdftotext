@@ -1,6 +1,6 @@
 {
   "name": "node-pdftotext",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A npm module wrapping the `pdftotext` utitility software",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vibhor1997a/pdftotext-module.git"
+    "url": "git+https://github.com/vibhor1997a/node-pdftotext.git"
   },
   "keywords": [
     "pdf",
@@ -19,7 +19,7 @@
   "author": "vibhor agrawal <vibhor349a@rediffmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/vibhor1997a/pdftotext-module/issues"
+    "url": "https://github.com/vibhor1997a/node-pdftotext/issues"
   },
-  "homepage": "https://github.com/vibhor1997a/pdftotext-module#readme"
+  "homepage": "https://github.com/vibhor1997a/node-pdftotext#readme"
 }
