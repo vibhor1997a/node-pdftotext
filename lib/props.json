@@ -1,72 +1,64 @@
 {
-    "boolean": [
-        {
-            "prop": "layout",
-            "switch": "-layout"
-        },
-        {
-            "prop": "table",
-            "switch": "-table"
-        },
-        {
-            "prop": "simple",
-            "switch": "-simple"
-        },
-        {
-            "prop": "lineprinter",
-            "switch": "-lineprinter"
-        },
-        {
-            "prop": "raw",
-            "switch": "-raw"
-        },
-        {
-            "prop": "clip",
-            "switch": "-clip"
-        },
-        {
-            "prop": "noDiagnolText",
-            "switch": "-nodiag"
-        },
-        {
-            "prop": "noPageBreak",
-            "switch": "-nopgbrk"
-        }
-    ],
-    "int": [
-        {
-            "prop": "first",
-            "switch": "-f"
-        },
-        {
-            "prop": "last",
-            "switch": "-l"
-        }
-    ],
-    "number": [
-        {
-            "prop": "fixed",
-            "switch": "-fixed"
-        },
-        {
-            "prop": "linespacing",
-            "switch": "-linespacing"
-        }
-    ],
-    "string": [
-        {
-            "prop": "pdfPath"
-        },
-        {
-            "prop": "txtPath"
-        },
-        {
-            "prop": "ownerPassword",
-            "switch": "-opw"
-        },
-        {
-            "prop": "userPassword",
-            "switch": "-upw"
-        }
-    ]
+    "layout": {
+        "switch": "-layout",
+        "type": "boolean"
+    },
+    "table": {
+        "switch": "-table",
+        "type": "boolean"
+    },
+    "simple": {
+        "switch": "-simple",
+        "type": "boolean"
+    },
+    "lineprinter": {
+        "switch": "-lineprinter",
+        "type": "boolean"
+    },
+    "raw": {
+        "switch": "-raw",
+        "type": "boolean"
+    },
+    "clip": {
+        "switch": "-clip",
+        "type": "boolean"
+    },
+    "noDiagnolText": {
+        "switch": "-nodiag",
+        "type": "boolean"
+    },
+    "noPageBreak": {
+        "switch": "-nopgbrk",
+        "type": "boolean"
+    },
+    "first": {
+        "switch": "-f",
+        "type": "int"
+    },
+    "last": {
+        "switch": "-l",
+        "type": "int"
+    },
+    "fixed": {
+        "switch": "-fixed",
+        "type": "number"
+    },
+    "linespacing": {
+        "switch": "-linespacing",
+        "type": "number"
+    },
+    "pdfPath": {
+        "type": "string"
+    },
+    "txtPath": {
+        "type": "string"
+    },
+    "ownerPassword": {
+        "switch": "-opw",
+        "type": "string"
+    },
+    "userPassword": {
+        "switch": "-upw",
+        "type": "string"
+    }
 }
